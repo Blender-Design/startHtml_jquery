@@ -1,0 +1,38 @@
+{
+  "name": "startHtml_jquery",
+  "version": "1.0.0",
+  "description": "Start Html (jquery) - Lightweight Gulp Starter",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp dist"
+  },
+  "author": "Blender-Design",
+  "license": "ISC",
+  "browserslist": [
+    ">= 0.5%",
+    "last 2 major versions"
+  ],
+  "devDependencies": {
+    "autoprefixer": "10.4.0",
+    "browser-sync": "2.27.7",
+    "browsersync-ssi": "0.2.4",
+    "cssnano": "5.0.10",
+    "del": "6.0.0",
+    "gulp": "4.0.2",
+    "gulp-changed": "4.0.3",
+    "gulp-concat": "2.6.1",
+    "gulp-imagemin": "7.1.0",
+    "gulp-postcss": "9.0.1",
+    "gulp-sass": "5.0.0",
+    "gulp-sass-glob": "1.1.0",
+    "gulp-sourcemaps": "3.0.0",
+    "gulp-uglify": "3.0.2",
+    "sass": "1.43.4",
+    "ssi": "0.3.0"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "normalize.css": "^8.0.1"
+  }
+}
